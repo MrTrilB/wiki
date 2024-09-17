@@ -42,8 +42,6 @@ startupProbe:
     path: /healthz
     port: http
 
-podAnnotations: {}
-
 podSecurityContext: {}
   # fsGroup: 2000
 

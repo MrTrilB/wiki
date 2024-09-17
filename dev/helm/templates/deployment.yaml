@@ -14,8 +14,6 @@ spec:
     metadata:
       labels:
         {{- include "wiki.selectorLabels" . | nindent 8 }}
-      annotations:
-        {{- toYaml .Values.podAnnotations | nindent 8 }}
     spec:
     {{- with .Values.imagePullSecrets }}
       imagePullSecrets:

@@ -89,7 +89,7 @@ jobs:
 
     strategy:
       matrix:
-        dbtype: [postgres, mysql, mariadb, sqlite]
+        dbtype: [postgres, mysql, mariadb, mssql, sqlite]
 
     steps:
     - uses: actions/checkout@v4
